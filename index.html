@@ -10,45 +10,73 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		
+		<style>
+		nav {
+            margin: 20px 0;
+            text-align: left; /* Alinha os links à esquerda */
+        }
+        nav a {
+            display: block; /* Cada link ocupa uma linha inteira */
+            margin: 10px 0; /* Espaçamento entre os links */
+            text-decoration: none;
+            color: #49BF9D;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+		</style>
+		
 	</head>
 	<body class="is-preload">
 	  
 	  
 		<!-- Header -->
 			<header id="header">
-			  <a href="index.html" class="logo"><strong>Portfólio</strong> de Projetos de Ciência de Dados</a><br />
+			  <a href="index.html" class="logo"><strong>Portfólio</strong> de Projetos de Dados</a><br />
 				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/foto_profissional.jpeg" alt="" /></a>
+					<a href="#" class="image avatar"><img src="images/foto_profissional.jpg" alt="" /></a>
 					<h2><strong><u>Luísa Muzzi</u></strong></h2>
-					<h1><p>Ciência de Dados</p></h1>
+					<h1><p>Analista de Dados</p></h1>
 				</div>
 			</header>
 
 		<!-- Main -->
 			<div id="main">
 
-				<!-- One -->
-					<section id="one">
+				<!-- Boas vindas -->
+					<section id="boas_vindas">
 						<header class="major">
-							<h2><strong><u>Portfólio de Projetos de Ciência de Dados</u></strong></h2>
+							<h2><strong><u>Portfólio de Projetos de Dados</u></strong></h2>
 							<p>Seja bem-vindo(a)!</p>
 						</header>
-						<p>Neste portfólio se encontram meus projetos de Ciência de Dados, feitos com base em dados públicos. Por meio deles, demonstro minhas habilidades em resolução de problemas de negócios. Nesta página, também descrevo experiências profissionais, habilidades e ferramentas que utilizo.</p>
+						<p>Neste portfólio se encontram meus projetos de dados, feitos com base em dados públicos. Por meio deles, demonstro minhas habilidades em resolução de problemas de negócios. Nesta página, também descrevo experiências profissionais, habilidades e ferramentas que utilizo.</p>
 					</section>
 					
-				<!-- Two -->
-				  <section id="two">
+					<!-- Índice -->
+    <nav>
+        <a href="#quem_sou_eu">Quem sou eu</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#experiencia_profissiona">Experiência Profissional</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#projetos_cursos">Projetos de Cursos/Estudos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+					
+				<!-- Quem sou eu -->
+				  <section id="quem_sou_eu">
 				      <header class="major">
 				        <h2><strong>Quem sou eu</strong></h2>
 				      </header>
-				      <p> Atuei por quatro anos como pesquisadora de Pós-Graduação analisando dados por meio de técnicas estatísticas e de análise espacial. Neste trabalho, adquiri várias das habilidades necessárias à uma cientista de dados, como pensamento analítico, curiosidade, familiaridade com dados, formulação de perguntas e hipóteses de pesquisa, criatividade, inovação, resolução de problemas e storytelling. </p>
-				     <p> Atualmente trabalho como Assessora Nível II em um órgão governamental realizando auditoria de dados de receita de concessões rodoviárias. </p>
-				     <p> Além disso, desenvolvo projetos pessoais de Ciência de Dados para aprimorar minhas habilidades de resolução de problemas de negócio aplicando conceitos e ferramentas da área. Busco atuar profissionalmente como Cientista de Dados para gerar valor à empresa e auxiliar a tomada de decisão por meio de soluções de dados. </p>
-				      <p> Sou formada em Engenharia Civil e mestra em Transportes pela UFMG, e doutoranda na mesma área na UFPE.</p>
+				      <p> Analista de Dados com mais de 4 anos de experiência em análise estatística e tomada de decisão orientada por dados. Atualmente, realizo auditorias em dados de arrecadação de pedágios, inadimplência e fraudes no setor rodoviário, entregando melhorias que aumentaram a confiabilidade das avaliações financeiras e resultaram em uma economia de 17%. Minha expertise abrange ferramentas como Excel, SQL, Power BI e Python, sempre com o objetivo de fornecer insights que apoiem decisões estratégicas e de comunicar ideias complexas de forma eficaz.</p>
+
+<p> Minha jornada começou na academia, onde desenvolvi fortes habilidades analíticas como pesquisadora de iniciação científica durante a graduação e, posteriormente, como pesquisadora de pós-graduação por 4 anos. Nesse período, publiquei 13 artigos em periódicos e congressos nacionais e internacionais, sendo um deles premiado em um congresso nacional.</p>
+
+<p> Sou apaixonada por aprendizado contínuo e por aplicar meu conhecimento para resolver problemas e criar soluções eficazes, sempre buscando combinar análise de dados com impactos significativos no ambiente corporativo.</p>
 				  </section>
 				 
-				<!-- Three --> 
-  				<section id="three">
+				<!-- Habilidades --> 
+  				<section id="habilidades">
   				  <header class="major">
   							<h2><strong>Habilidades</strong></h2>
   					</header>
@@ -68,7 +96,7 @@
   								<div class="col-6 col-12-xsmall">
   									<h3><span class="icon solid fa-calculator"></span> Estatística e Machine Learning</h3>
   									<ul>
-  										<li>Estatística descritiva (medidas de posição, medidas de dispersão)</li>
+  										<li>Estatística descritiva</li>
   									
   									</ul>
   								</div>
@@ -110,22 +138,25 @@
   							</div>
   						</section>
 
-				<!-- Two -->
-				  <section id="two">
+				<!-- Experiência Profissional -->
+				  <section id="experiencia_profissional">
 				      <header class="major">
-				        <h2><strong>Experiência Profissional e em Dados</strong></h2>
+				        <h2><strong>Experiência Profissional</strong></h2>
 				      </header>
-				      <h3>6 meses como assessora (auditoria de dados) </h3>
-				      <p>Coletar dados de tráfego e arrecadação de praças de pedágio por meio de consultas SQL. Analisar dados de tráfego e arrecadação de praças de pedágio para auditoria dos valores arrecadados.</p>
-				      <h3>4 anos como Pesquisadora de Pós-Graduação</h3>
-				      <p>Desenvolver pesquisas científicas nas áreas de transporte urbano de carga, logística urbana e e-commerce. Coletar dados de bases públicas e por meio da elaboração de questionários. Organizar e limpar dados. Analisar dados socioeconômicos e de entregas do e-commerce por meio de técnicas estatísticas (como estatística descritiva, regressão linear, regressão de Poisson e regressão binomial negativa) e espaciais (como regressão geograficamente ponderada, Global Moran's I e Local Moran's I) utilizando linguagem de programação R e softwares como Excel, ArcGis e GeoDa. Comunicar resultados e insights à equipe. Elaborar artigos científicos (concepção; definição de cronograma; estruturação do objetivo, pergunta de pesquisa e hipóteses de pesquisa; coleta e análise de dados; escrita). Colaborar com pesquisadores da equipe na produção de artigos e apresentações para congressos nacionais e internacionais.</p>
+				      <h3>Analista de dados - Junho/2024 - Presente  </h3>
+				      <p>Realizei auditoria em dados de arrecadação de praças de pedágio de concessionárias de rodovias desde a extração dos dados usando SQL, tratamento no Power Query, desenvolvimento e execução da análise no Excel. A metodologia empregada permitiu uma economia de 17% ao estado no pagamento de reequilíbrio econômico às concessionárias.</p>
+              <p>Realizei auditoria em dados de inadimplência e fraude de pagamento em praça de pedágio usando consultas SQL para extração dos dados, Power Query para tratamento e Excel para análise. Os resultados obtidos impactaram diretamente na tomada de decisões da equipe e na confiabilidade dos valores a serem pagos pelo estado à concessionária de rodovias.</p>
+              <p>Gerenciei contratos de concessão rodoviária com foco no monitoramento do cumprimento de parâmetros e prazos contratuais por meio da elaboração de planilhas de acompanhamento de quantitativos e prazos, elaboração de documentos relacionados à comunicação entre o estado e as concessionárias de rodovias e realização de reuniões de alinhamento com a equipe e concessionárias. O trabalho desenvolvido contribuiu para a organização do monitoramento da instalação e funcionamento dos equipamentos operacionais das rodovias, garantindo o cumprimento de contratos e auxiliando a tomada de decisão eficiente da equipe.</p>
 
-              <h3>Projetos Pessoais de Dados</h3>
-              <p>Elaboração de projetos de Dados para resolução de problemas de negócio próximos do dia a dia real de empresas. Os projetos foram realizados utilizando dados públicos.</p>
+				      <h3>Pesquisadora - Março/2020 - Junho/2024 </h3>
+				      <p>Desenvolvi projetos de pesquisa nas áreas de transporte urbano de carga, logística urbana e e-commerce, sendo responsável pela elaboração de artigos científicos (concepção, definição de cronograma, estruturação do objetivo e hipóteses de pesquisa, obtenção de dados em bases públicas e por meio de questionários, análise de dados e escrita). Implementei técnicas analíticas como estatística descritiva, regressão linear, regressão de Poisson, regressão binomial negativa, regressão geograficamente ponderada, Global Moran's I e Local Moran's I, utilizando linguagem de programação R e softwares como Excel, ArcGis e GeoDa. Os resultados obtidos contribuíram com 15% da produção científica do grupo com a publicação de 6 artigos em periódicos internacionais e nacionais, e o aceite de 7 artigos em congressos internacionais e nacionais.</p>
+            <p>Participei de reuniões periódicas com a equipe para estruturação e acompanhamento de projetos, e compartilhamento de resultados e insights, permitindo a identificação de novos temas de pesquisa a serem trabalhados, uma definição mais eficiente de prioridades e prazos, e um melhor alinhamento da equipe.</p>
+            <p>Fui ganhadora do Prêmio ANPET de Produção Científica em 2021 pelo artigo baseado em minha dissertação de mestrado, no qual utilizei técnicas de análise espacial para identificar fatores socioeconômicos que influenciam o comércio eletrônico de Belo Horizonte</p>
+
 				  </section>
 
-				<!-- Five -->
-					<section id="Five">
+				<!-- Projetos -->
+					<section id="projetos">
 					  <header class="major">
 						  <h2><strong>Projetos pessoais</strong></h2>
 						</header>
@@ -133,7 +164,7 @@
 					<h3><u>Power BI</u></h3>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://app.powerbi.com/view?r=eyJrIjoiNjYxMTE4ZDctOTNmZC00MWU0LWI0MjItZjVlNGE5ZjIzMzM5IiwidCI6ImUyZjc3ZDAwLTAxNjMtNGNmNi05MmIwLTQ4NGJhZmY5ZGY3ZCJ9&pageName=ReportSectiond2b2e8909b25e91c4067" class="image fit thumb"><img src="images/thumbs/proj_5.jpg" alt="" /></a>
+								<a href="https://app.powerbi.com/view?r=eyJrIjoiNjYxMTE4ZDctOTNmZC00MWU0LWI0MjItZjVlNGE5ZjIzMzM5IiwidCI6ImUyZjc3ZDAwLTAxNjMtNGNmNi05MmIwLTQ4NGJhZmY5ZGY3ZCJ9&pageName=ReportSectiond2b2e8909b25e91c4067" class="image fit thumb"><img src="images/thumbs/proj_5.png" alt="" /></a>
 								<h4>Desenvolvimento de Dashboards para empresa de marketplace de aluguel de imóveis com Power BI</h4>
 								<p>Nesse projeto, utilizou-se ferramentas de ETL, conceitos de análise de dados e conhecimento de negócios, associados a ferramentas de DataViz do Power BI (gráficos, cartões, segmentações e mapas), para o desenvolvimento de um relatório contendo dois dashboards para acompanhamento da disponibilidade de imóveis e potencial de receita para uma empresa de marketplace de aluguel de imóveis para curta e longa temporada.</p> <br/>
 <p>O resultado final do projeto pode ser visualizado por meio do link que se encontra no README do projeto no GitHub ou clicando na imagem acima.</p><br/>
@@ -206,8 +237,8 @@
 						
 					</section>
 
-				<!-- Six -->
-					<section id="Five">
+				<!-- Projetos de cursos -->
+					<section id="projetos_cursos">
 					  <header class="major">
 						  <h2><strong>Projetos de Cursos/Estudos</strong></h2>
 						</header>
@@ -215,7 +246,7 @@
 					<h3><u>DataViz com Python/Streamlit</u></h3>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
-								<a href="https://lm-curry-company.streamlit.app/" class="image fit thumb"><img src="images/thumbs/proj_1.jpg" alt="" /></a>
+								<a href="https://lm-curry-company.streamlit.app/" class="image fit thumb"><img src="images/thumbs/proj_1.png" alt="" /></a>
 								<h4><strong>Desenvolvimento de dashboards para empresa de marketplace de deliveries com Streamlit: Curry Company</strong></h4>
 								<p>Nesse projeto, realizado utilizando-se linguagem de programação Python, os conceitos de manipulação de dados, análise descritiva de dados, pensamento estratégico e conhecimento de negócio, juntamente à ferramentas de desenvolvimento web como o Streamlit e Github, foram usados para desenvolver um painel gerencial com as principais métricas de uma empresa marketplace de delivery de comida na Índia.</p><br/>
                 <p>O resultado final do projeto foi um painel hospedado em um ambiente Cloud e disponibilizado através de um link web. O painel pode ser acessado por qualquer dispositivo conectado à Internet.</p><br/>
@@ -261,8 +292,8 @@
 					
 					</section>
 
-				<!-- Seven -->
-					<section id="Six">
+				<!-- Contato -->
+					<section id="contato">
 						<header class="major">
 						<h2>Contato</h2>
 						</header>
